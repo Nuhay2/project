@@ -8,7 +8,7 @@ import seaborn as sns
 from tqdm import tqdm  # Pour une barre de progression
 
 # Configuration
-DATA_DIR = "../../Downloads/fb100/data/"
+DATA_DIR = "fb100/data/"
 ATTRIBUTES = ["student_fac", "gender", "major_index", "dorm", "year"]
 RESULTS_FILE = "assortativity_results.csv"
 
