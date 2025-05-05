@@ -4,7 +4,7 @@ import torch
 
 # Ce code permet de faire du label propagation sur les attributs demandés et comparer avec des bouts supprimés de différentes tailles
 # Il ne charge que 1 graphe en même temps
-G=nx.read_gml("../../fb100/data/Swarthmore42.gml")
+G=nx.read_gml("fb100/data/Swarthmore42.gml")
 
 # méthode pour supprimer une partie des attributs
 def remove_attributes(G, attribute, fraction):
