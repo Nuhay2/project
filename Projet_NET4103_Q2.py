@@ -2,9 +2,9 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Chargement des 3 graphes
-G1=nx.read_gml("../../fb100/data/Caltech36.gml")
-G2=nx.read_gml("../../fb100/data/MIT8.gml")
-G3=nx.read_gml("../../fb100/data/Johns Hopkins55.gml")
+G1=nx.read_gml("fb100/data/Caltech36.gml")
+G2=nx.read_gml("fb100/data/MIT8.gml")
+G3=nx.read_gml("fb100/data/Johns Hopkins55.gml")
 
 
 degrees1 = [deg for node, deg in G1.degree()]
