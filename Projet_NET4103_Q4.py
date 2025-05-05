@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 # Ce programme calcul les métriques pour un graphe (pour calculer sur plusiseurs graphes j'ai relancé ce programme avec des graphes différents
-G1=nx.read_gml("../../fb100/data/Caltech36.gml")
+G1=nx.read_gml("fb100/data/Caltech36.gml")
 
 class LinkPrediction(ABC):
     def __init__(self,graph):
